@@ -1,0 +1,15 @@
+# User settings (including the picked click area's coordinates)
+settings.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Shortcuts are generated locally by tools/make_shortcuts.ps1 and bake in an
+# absolute, machine-specific path - they don't belong in the repository
+*.lnk
+
+# Editor/OS clutter
+.vscode/
+Thumbs.db
+desktop.ini
